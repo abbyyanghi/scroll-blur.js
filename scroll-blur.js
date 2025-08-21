@@ -3,7 +3,7 @@
     const media = document.getElementById("scrollImage");
     if (!media) return;
 
-    const blurMultiplier = 20;
+    const blurMultiplier = 5;
     const maxBlur = 15;
 
     let lastScrollY = window.scrollY;
