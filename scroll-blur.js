@@ -4,7 +4,7 @@
     if (!media) return;
 
     const blurMultiplier = 5;
-    const maxBlur = 15;
+    const maxBlur = 7;
 
     let lastScrollY = window.scrollY;
     let lastTime = performance.now();
